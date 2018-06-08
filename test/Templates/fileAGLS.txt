@@ -1,0 +1,15 @@
+http://prov.vic.gov.au/vers/schema/AGLS	http://www.w3.org/1999/02/22-rdf-syntax-ns
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/"
+	 xmlns:aglsterms="http://www.agls.gov.au/agls/terms/">
+<rdf:Description rdf:about="$$1$$">
+ <dcterms:title>$$2$$</dcterms:title>
+ <dcterms:creator>$$3$$</dcterms:creator>
+ <dcterms:created rdf:datatype="xsd:dateTime">$$4$$</dcterms:created>
+ <dcterms:modified rdf:datatype="xsd:dateTime">$$5$$</dcterms:modified>
+ <dcterms:identifier>$$2$$</dcterms:identifier>
+ <dcterms:rights>Copyright State of Victoria 2017</dcterms:rights>
+ <dcterms:type>File System Capture</dcterms:type>
+ <dcterms:extent>$$7$$</dcterms:extent>
+</rdf:Description>
+</rdf:RDF>
+

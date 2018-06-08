@@ -1,0 +1,19 @@
+{"debugReporting":false,
+ "itemsToBuild":[
+  {"item":"C:\\Users\\Andrew\\Documents\\Work\\VERS-2015\\FileHarvestGUI\\test\\Vol 40 (2017)\\S-40-1"},
+  {"item":"C:\\Users\\Andrew\\Documents\\Work\\VERS-2015\\FileHarvestGUI\\test\\Vol 40 (2017)\\S-40-2"},
+  {"item":"C:\\Users\\Andrew\\Documents\\Work\\VERS-2015\\FileHarvestGUI\\test\\Vol 40 (2017)\\S-40-3"},
+  {"item":"C:\\Users\\Andrew\\Documents\\Work\\VERS-2015\\FileHarvestGUI\\test\\Vol 40 (2017)\\S-40-4"},
+  {"item":"C:\\Users\\Andrew\\Documents\\Work\\VERS-2015\\FileHarvestGUI\\test\\Vol 40 (2017)\\S-40-5"},
+  {"item":"C:\\Users\\Andrew\\Documents\\Work\\VERS-2015\\FileHarvestGUI\\test\\Vol 40 (2017)\\S-40-6"}],
+ "verboseReporting":false,
+ "pfxPassword":"Ag0nc1eS",
+ "foldersToExclude":[
+  {"folder":"C:\\Users\\Andrew\\Documents\\Work\\VERS-2015\\FileHarvestGUI\\test\\Vol 40 (2017)\\S-40-3\\Flinders St yard panels plus"},
+  {"folder":"C:\\Users\\Andrew\\Documents\\Work\\VERS-2015\\FileHarvestGUI\\test\\Vol 40 (2017)\\S-40-3\\SRS May 2017"}],
+ "outputDirectory":"C:\\Users\\Andrew\\Documents\\Work\\VERS-2015\\FileHarvestGUI\\test\\Output",
+ "pfxFile":"C:\\Users\\Andrew\\Documents\\Work\\VERS-2015\\FileHarvestGUI\\test\\signer.pfx",
+ "hashAlgorithm":"SHA-512",
+ "filesToExclude":[
+  {"filePattern":".*\\.bak"}],
+ "templateDirectory":"C:\\Users\\Andrew\\Documents\\Work\\VERS-2015\\FileHarvestGUI\\test\\Templates"}

@@ -1,0 +1,15 @@
+{
+    "preloader_enabled": true,
+    "logging": {
+        "output_to_ui": true,
+        "errors_to_ui": true
+    },
+    "create": {
+        "defaults": {
+            "log_file_path": "%output_folder%\\logs\\veo_create.txt"
+        }
+    },
+	"defaults": {
+		"output_folder": "%user.home%VEOs"
+	}
+}

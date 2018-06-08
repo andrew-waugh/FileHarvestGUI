@@ -1,0 +1,5 @@
+This is text describing the collection of this file system.
+Typically, this would contain why it was collected and any analysis
+done on the file system before collection.
+<p>
+It is in HTML.

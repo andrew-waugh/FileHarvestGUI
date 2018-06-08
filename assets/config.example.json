@@ -1,0 +1,55 @@
+{
+    "preloader_enabled": true,
+    "logging": {
+        "output_to_ui": true,
+        "errors_to_ui": true
+    },
+    "window_title": "neoVEO GUI",    
+    "create": {
+        "preloader_text": "Creating...",
+        "window_title": "%window_title% - Create",
+        "summary": {
+            "window_title": "%create_window_title% Summary"
+        },
+        "defaults": {
+            "verbose_output": true,
+            "debug_mode": false,
+            "output_folder": "%user.home%VEOs",
+            "log_file_path": "%output_folder%\\logs\\veo_create.txt",            
+            "hash_algorithm": "SHA-1",
+            "transfer_mode": "link"
+        },
+        "help_hash_tag": "#veocreate"
+    },
+    "analyse": {
+        "preloader_text": "Analysing...",
+        "window_title": "%window_title% - Analyse",
+        "summary": {
+            "window_title": "%analyse_window_title% Summary"
+        },
+        "defaults": {
+            "verbose_output": true,
+            "debug_mode": false,
+            "report_on_errors": false,
+            "hide_metadata_errors": true,
+            "output_folder": "%user.home%VEOs",
+            "log_file_path": "%output_folder%\\logs\\veo_analyse.txt"           
+        },
+        "help_hash_tag": "#veoanalysis"
+    },
+    "resign": {
+        "preloader_text": "Re-signing...",
+        "window_title": "%window_title% - Re-sign",
+        "summary": {
+            "window_title": "%resign_window_title% Summary"
+        },
+        "defaults": {
+            "verbose_output": true,
+            "debug_mode": false,
+            "output_folder": "%user.home%VEOs",
+            "log_file_path": "%output_folder%\\logs\\veo_resign.txt",            
+            "hash_algorithm": "SHA-1"            
+        },
+        "help_hash_tag": "#veosign"
+    }
+}

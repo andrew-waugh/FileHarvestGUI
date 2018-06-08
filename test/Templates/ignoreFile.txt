@@ -1,0 +1,8 @@
+! test ignore file
+ignoreExtension	.dwg
+ignoreExtension	noExtension
+
+ignoreDirectory	VEOTemplates	build	test\VEOFiles
+ignoreDirectory	dist
+
+ignorePattern	~.*	.*\.docx

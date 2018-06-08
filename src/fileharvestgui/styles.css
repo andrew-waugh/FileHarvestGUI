@@ -1,0 +1,54 @@
+/* Landing page */
+.app-header {
+    -fx-padding: 0 0 10px 0;
+}
+.app-vbox {    
+    -fx-spacing: 8;
+}
+.app-title-box {
+    -fx-padding: 8px 10px 20px 10px;    
+    -fx-background-color: #f9e53c;    
+}
+.app-title {
+    -fx-font-size: 20px;
+    -fx-font-family: Arial, sans-serif;
+    -fx-font-weight: bold;
+}
+.app-table {
+    -fx-hgap: 14;
+}
+.col-box {
+    -fx-padding: 10px;
+    -fx-background-color: #fff;
+    -fx-border-width: 2px;
+    -fx-border-color: #f9e53c;
+    -fx-font-size: 14px;
+    -fx-font-family: Arial, sans-serif;
+}
+.col-text-flow {
+    -fx-line-spacing: 4px;
+}
+.col-title {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+/* Links with tooltips */
+.tooltip-link {
+    -fx-border-width: 0 0 1px 0;
+    -fx-border-style: dashed;
+    -fx-border-color: lightskyblue;
+    -fx-cursor: hand;
+}
+
+/* VEO output / summary */
+.message-status {
+    -fx-font-weight: bold;
+    -fx-font-style: italic;
+}
+.message-status:success {
+    -fx-fill: #3c763d;
+}
+.message-status:error {
+    -fx-fill: #a94442;
+}

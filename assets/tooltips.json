@@ -1,0 +1,23 @@
+{
+    "create": {
+        "harvestFolders": "A list of folders to harvest, each of which will create a VEO",
+        "templateFolder": "The folder in which the metadata templates and the standard VEOReadme.txt file is found",
+        "outputFolder": "The folder in which the VEOs will be created",
+        "excludeFolders": "A list of folders to exclude from the harvest",
+	"excludeFiles": "A list of patterns used to exclude files from the harvest",
+	"hashAlgorithm": "The hash algorithm used to protect the content files and create signatures",
+	"verboseOutput": "Provides logging information about the VEO creation",
+        "debugOutput": "Generates more logging and the VEO folders are not deleted after the ZIP file is created",
+        "pfxFile": "A file used to sign the VEO(s) which is protected against reading and can be specified in the control file",
+        "pfxFilePassword": "The password used to unlock the PFX file",
+        "browse": "Browse the file system for files or directories",
+	"delete": "Delete the selected entries",
+        "createVEOs": "Press here to create the VEOs",
+        "report": "Reports from each VEO created",
+        "progress": "Progress in going through VEOs to be created",
+        "constructed": "Number of VEOs generated",
+        "failed": "Number of VEOs that failed during construction",
+        "finish": "Terminate construction of VEOs",
+        "logFile": "Log file to write reports"
+    }
+}
