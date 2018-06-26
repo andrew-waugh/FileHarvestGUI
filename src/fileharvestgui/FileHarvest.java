@@ -783,7 +783,7 @@ public class FileHarvest {
         try {
             cv.addVEOReadme(templateDirectory);
             cv.addEvent(versDateTime(false, System.currentTimeMillis()), "Converted to VEO", userId, description, errors);
-            cv.addContent(CreateVEO.AddMode.HARD_LINK, baseDirectory);
+            cv.addContent(baseDirectory);
             res = null;
             try {
                 processFile(cv, recordName, baseDirectory, baseDirectory, 1);
@@ -1026,7 +1026,7 @@ public class FileHarvest {
         if (!addedDummyLTPF) {
             p = Paths.get(templateDirectory.toString(), "DummyContent");
             try {
-                cv.addContent(CreateVEO.AddMode.HARD_LINK, p);
+                cv.addContent(p);
             } catch (VEOError ve) {
                 LOG.log(Level.WARNING, "Cannot add dummy LTPF {0} because: {1}", new Object[]{p.toString(), ve.getMessage()});
                 return;
