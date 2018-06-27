@@ -25,7 +25,7 @@
                            <children>
                               <AnchorPane>
                                  <children>
-                                    <Text fx:id="titleText" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="about-title" text="neoVEO App" wrappingWidth="403.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                    <Text fx:id="titleText" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="about-title" text="File Harvest App" wrappingWidth="403.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                                        <font>
                                           <Font name="Arial" size="36.0" />
                                        </font>
@@ -35,7 +35,7 @@
                                     <Insets right="10.0" />
                                  </padding>
                               </AnchorPane>
-                              <Text fx:id="subtitleText" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="about-subtitle" text="GUI application for VERS VEO Toolkit version 3." />
+                              <Text fx:id="subtitleText" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="about-subtitle" text="GUI application for VERS VEO from file systems." />
                            </children>
                         </VBox>
                      </children>
@@ -61,7 +61,7 @@
                         <Label styleClass="about-label" text="Product Version" GridPane.halignment="RIGHT" />
                         <Label fx:id="versionLabel" text="1.0" GridPane.columnIndex="1" />
                         <Label styleClass="about-label" text="Last Updated" GridPane.halignment="RIGHT" GridPane.rowIndex="1" />
-                        <Label fx:id="lastUpdatedLabel" text="27/05/17" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                        <Label fx:id="lastUpdatedLabel" text="30/03/2018" GridPane.columnIndex="1" GridPane.rowIndex="1" />
                      </children>
                   </GridPane>
                </children>

@@ -1,69 +1,51 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>neoVEO Help</title>
+        <title>File Harvest Help</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/bootstrap.min.css">
     </head>
     <body>
         <div class="container">
-            <h2>Contents</h2>
-            <ul>
-                <li><a href="#veocreate">VEOCreate</a></li>            
-                <li><a href="#veoanalysis">VEOAnalysis</a></li>
-                <li><a href="#veosign">VEOSign</a></li>
-            </ul>
+            <p>This program creates VEOs out of one or more directories in a filesystem</p>
 
-            <h2 id="veocreate">VEOCreate</h2>
-            <p>The VEOCreate tool creates one or more VEOs from:</p>
-            <ul>
-                <li>Source digital record(s)</li>
-                <li>Control file</li>
-                <li>Metadata templates</li>
-                <li>PFX file</li>
-            </ul>
-
-            <h3>Source digital records</h3>
-            <p>These are the records to be converted into VEOs. VEOs can be constructed at an individual record level (one VEO for each record) or at multi record level (e.g. one VEO for a collection of records). The digital records should be arranged in the preferred way (single and/or multi-level) and should be in an approved long term preservation format prior to VEO creation.</p>
-
-            <h3>Control file</h3>
-            <p>The control file is a text file containing multiple rows of tab separated text commands. The control file instructs the VEOCreate tool on:</p>
-            <ul>
-                <li>How the VEOs are to be constructed</li>
-                <li>What record(s) are in each VEO</li>
-                <li>What metadata is to be included in each VEO</li>
-                <li>What PFX file to use to sign the VEOs</li>
-            </ul>
-
-            <h3>Metadata templates</h3>
-            <p>The metadata template files are used to generate the metadata packages for each VEO. They are text files expressed in XML which indicate:</p>        
-            <ul>
-                <li>Which metadata standard has been used (e.g. AGLS)</li>
-                <li>What syntax (i.e. rules/language to structure the metadata) have been applied (e.g. RDF)</li>                
-            </ul>
-
-            <h3>PFX file</h3>
-            <p>The PFX file is a unique certificate and private key that is used to ‘sign’ each VEO. A PFX file is protected against reading and requires a password. Government agencies are responsible for obtaining their PFX file for VEO creation.</p>
-
-            <h2 id="veoanalysis">VEOAnalysis</h2>
-            <p>The VEOAnalysis tool allows users to examine and test VEOs. It performs any combination of the following tasks:</p>
-            <ul>
-                <li>Unpacking VEO files into VEO directories</li>
-                <li>Testing VEOs for errors and questionable practices</li>
-                <li>Producing a visualisation of the contents of a VEO</li>
-            </ul>
-            <p>VEOAnalysis may work on one VEO or multiple VEOs.</p>
-
-            <h2 id="veosign">VEOSign</h2>
-            <p>The VEOSign tool performs three tasks on existing VEOs:</p>
-            <ul>
-                <li>Removes signature files</li>
-                <li>Re-signs the VEO(s)</li>
-                <li>Zips the contents of the VEO directory to create a new VEO</li>            
-            </ul>
-            <p>The intended use of VEOSign is to allow the modification of existing VEOs. For VEOs to be successfully re-signed they must  firstbe unpacked using VEOAnalysis. The contents of the VEO can then be manually modified, and finally VEOSign invoked to regenerate the VEO.</p>
-            <p>In practice, VEOSign is very similar to VEOCreate.</p>
+            <h3>Main pane</h3>
+            <p>The main controls are located on this pane. The controls
+			are as follows:</p>
+			<ul>
+			<li><b>Directories to Harvest</b> This is an area where the directories to capture are entered.
+			Each directory entered will result in a single VEO. The VEO will
+			contain the contents of that directory, and the contents of the
+			subordinate directories. The 'Browse' button on the right is used
+			to add directories, and the 'Delete' button to remove them.</li>
+			<li><b>Template Directory</b> This field specifies the directory that contains the
+			templates used to construct the VEO. Normally, a standard template
+			directory should be used. If necessary, the 'Browse' button on
+			the right can be used to select a new directory.</li>
+			<li><b>Output Directory</b> This field specifies the directory
+			where the VEOs are to be created. The 'Browse' button on
+			the right can be used to select a new directory.</li>
+			<li><b>PFX file</b> This field specifies the PFX file used to
+			sign the VEO. The 'Browse' button on
+			the right can be used to select a new directory.</li>
+			<li><b>PFX Password</b> This field password for the PFX file used to
+			sign the VEO.</li>
+			</ul>
+            <h3>Exc Folders pane</h3>
+            <p>This pane is used to select directories and/or files that
+			should not be harvested. The 'Browse' button on the right is
+			used to add directories or files, and the 'Delete' button to
+			remove them</p>
+            <h3>Exc Files pane</h3>
+            <p>This pane is used to select patterns directories and/or files that
+			should not be harvested. For example, the pattern '*.tmp'
+			will exclude any files that have a name ending in '.tmp'.
+			There is one pattern per line.</p>
+            <h3>Advanced pane</h3>
+            <p>This pane is used to control advanced functionality; in
+			particular the level of logging and the hash algorithm to be
+			used.</p>
         </div>        
     </body>
 </html>
