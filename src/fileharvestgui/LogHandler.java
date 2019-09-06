@@ -2,7 +2,7 @@
  * Copyright Public Record Office Victoria 2017
  * Licensed under the CC-BY license http://creativecommons.org/licenses/by/3.0/au/
  * Author Peter Samaras
- * Version 1.0 June 2017
+ * Version 1.0 June 2017 
  */
 package fileharvestgui;
 
